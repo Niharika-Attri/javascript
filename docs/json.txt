@@ -1,0 +1,29 @@
+JSON
+JavaScript Object Notation
+* subset of JavaScript
+* data representation format
+* commonly used for APIs and configs
+* lightweight and easy to read/ write
+* integrates easily with most languages
+
+JSON types
+* strings
+* numbers
+* booleans
+* null
+* arrays
+* objects
+
+.json 
+
+* mostly object or arrays at top level of file and other values inside of that
+
+{
+    "key": "value",
+    "key": "value"
+}
+
+-----in html
+abc = `JSON`
+console.log(abc) => output as string
+console.log(JSON.parse(abc)) => output as a javascript object

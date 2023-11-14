@@ -3,10 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JSON example</title>
     <script src="index.js"></script>
 </head>
 <body>
-    <h1>hello world</h1>
+   <script type = "text/javascript">
+        let companies = `[
+        {
+            "name":"bigcorp",
+            "numberofemployees":10000,
+            "ceo":"mary",
+            "rating":3.6
+        },
+        {
+            "name":"smallcorp",
+            "numberofemployees":3,
+            "ceo": null,
+            "rating":4.3
+        }
+        ]`
+        console.log(JSON.parse(companies))
+   </script>
 </body>
 </html>
