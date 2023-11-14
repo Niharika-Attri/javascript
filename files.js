@@ -49,8 +49,6 @@ const { execArgv } = require('process');
 // }
 
 
-// large files - time to read completely
-// streams - start using data before it has been fully read 
 
 
 
